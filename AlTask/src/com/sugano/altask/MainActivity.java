@@ -23,6 +23,19 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         truebutton = (Button)findViewById(R.id.button1);
         falsebutton = (Button)findViewById(R.id.button2);
+        truebutton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+			}
+		});
+        falsebutton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
         
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
